@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* creazione header */
 body{
     background-color: lightblue;
 }
@@ -14,6 +15,7 @@ body{
     vertical-align: 10px;
     font-size: 50px;
 }
+/* creazione del contenitore */
 .container{
     width: 80%;
     margin: 5% 10%;
@@ -21,6 +23,7 @@ body{
     border-radius: 5px;
     height: 80%;
 }
+/* creazione dei bottoni */
 button{
     background-color: white;
     padding: 5px;
@@ -32,51 +35,54 @@ button:hover{
     background-color: rgb(98, 168, 228) ;
     color: black;
 }
-.btask{
+.aline{
     margin: 20px 0 20px 40px;
 }
-.blu{
+/* creazione type */
+.Editorial{
     background-color:rgb(98, 168, 228) ;
     padding: 4px;
     border-radius: 10px;
     color: white;
 }
-.viola{
+.Q1Goals{
     background-color:rgb(152, 118, 222);
     padding: 4px;
     border-radius: 10px;
     color: white;
 }
-.green{
+.Recruting{
     background-color:rgb(124, 190, 170);
     padding: 4px;
     border-radius: 10px;
     color: white;
 }
-.orage{
+.Mobile{
     background-color:rgb(230, 162, 75);
     padding: 4px;
     border-radius: 10px;
     color: white;
 }
-.violaceo{
+.Website{
     background-color:rgb(203, 111, 163);
     padding: 4px;
     border-radius: 10px;
     color: white;
 }
-.verdino{
+.Sales{
     background-color:rgb(179, 186, 125);
     padding: 4px;
     border-radius: 10px;
     color: white;
 }
+/* fine type */
 .section{
     padding: 20px 20px;
 }
 p{
     line-height: 35px;
 }
+/* creazione spunte  */
 h1::before{
     content: ' \25BC';
 }
