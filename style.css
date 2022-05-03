@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: lightblue;
+}
+.head{
+    background-color: white;
+    padding: 1% 1%;
+}
+#logotext{
+    vertical-align: 10px;
+    font-size: 50px;
+}
+.container{
+    width: 80%;
+    margin: 5% 10%;
+}
